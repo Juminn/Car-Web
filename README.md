@@ -1,6 +1,9 @@
-# Habit corrector using I3D cnn model(습관교정기)
+# Car-Engineer-introduce-Web (자동차 수리공 자기소개 웹)
+
+URL: https://car-engineer-su.com/
 
 ![image](https://github.com/Juminn/Car-Web/assets/90203114/e47990bf-9950-44b7-ab36-4b6105ab1063)
+
 
 
 ## 1. environment:
@@ -11,18 +14,13 @@
 - CUDA 10.0
 - CuDNN 7.4
 
+## 2. how to Run
+download node.js, yarn
+$ yarn install
+$ yarn start
 
-## 2. how it works
-1. Detect habits through cam
-2. Helps users stop a habit by notifying them
-  ### 2.1 currently detected habit is
-  1. nail biting
-  2. lip biting
-  3. chin on hand
+## 3. Reference
+[react-resume-template](https://github.com/tbakerx/react-resume-template)
 
-## 3. how to Run
-$ python act_detector.py
 
-## 4. Reference
-[I3D model](https://github.com/deepmind/kinetics-i3d)
 
