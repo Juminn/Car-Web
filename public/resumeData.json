@@ -1,25 +1,25 @@
 {
   "main": {
-    "name": "가나다라 입니다",
-    "occupation": "가좌동",
-    "description": "temple",
+    "name": "가성비 엔지니어",
+    "occupation": "가성비",
+    "description": "있는 효율적인 자동차 수리를 추구합니다.",
     "image": "profilepic.jpg",
-    "bio": "사람이다",
+    "bio": "완벽한 수리보다는 90%의 완성도와 70%의 가격을 가진 가성비 수리를 추구합니다. ",
     "contactmessage": "연락줘",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "email": "bcc456123@naver.com",
+    "phone": "010-9424-6862",
     "address": {
-      "street": "가좌동",
-      "city": "인천",
-      "state": "한국",
-      "zip": "111-111"
+      "street": "인천 서구 염곡로",
+      "city": "인천 서구에서",
+      "state": "",
+      "zip": "59 공단자동차"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
         "name": "phone",
-        "url": "tel:010-4187-6862",
+        "url": "tel:010-9424-6862",
         "className": "fa fa-phone"
       },
       {
@@ -33,16 +33,28 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "출생",
+        "degree": "1967",
+        "graduated": "전라남도 낙압읍성",
+        "description": ""
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "첫 자동차 수리시작",
+        "degree": "1990 03~",
+        "graduated": "인우자동차공업사",
+        "description": "이때만 해도 밥벌이를 위해 시작한 일이 평생직업이 될지는 몰랐습니다."
+      },
+      {
+        "school": "직장인으로서의 수리공",
+        "degree": "~2015",
+        "graduated": "기아오토큐, 신영자동차서비스센터, 여러곳의 자동차공업사",
+        "description": "서비스센터에서 부터 공업사까지, 여러곳을 다니며 일을 했습니다. 노력한만큼 돈을받으며 일을 하였고, 정당하게 벌었습니다."
+      },
+      {
+        "school": "나만의 수리 시작",
+        "degree": "2016~",
+        "graduated": "공단자동차정비 공업사",
+        "description": "마음이 맞는 친구 두명과 사업을 시작했습니다. 직장생활을 할때는 내가원하는 퀄리티와 가격을 정할 수 없었습니다. 하지만 이제는 내가 정한 적당한 퀄리티와 더싼 가격으로 수리를 합니다. 경쟁력 있다고 생각하고, 일한만큼 받습니다."
       }
     ],
     "work": [
@@ -93,33 +105,39 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
+        "title": "공단자동차정비공업사",
+        "category": "입구",
+        "image": "1.jpg",
         "url": "https://www.canadianwanderlust.com"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
+        "title": "공단자동차정비공업사",
+        "category": "입구",
+        "image": "2.jpg",
         "url": "http://www.timbakerdev.com"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
+        "title": "공단자동차정비공업사",
+        "category": "내부",
+        "image": "3.jpg",
         "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
+        "title": "공단자동차정비공업사",
+        "category": "내부",
+        "image": "4.jpg",
         "url": "http://www.timbakerdev.com"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
+        "title": "공단자동차정비공업사",
+        "category": "내부",
+        "image": "5.jpg",
+        "url": "http://www.smirkspace.com"
+      },
+      {
+        "title": "공단자동차정비공업사",
+        "category": "내부",
+        "image": "6.jpg",
         "url": "http://www.smirkspace.com"
       }
     ]
