@@ -12,7 +12,7 @@ user - react(front-end) - spring boot(back-end)
 
 ### 0-2. developer aspect:
 
-github(CI) - codebuild(AWS - CD) - S3(AWS - Storage) - CloudFront(AWS - CDN) - route53(AWS - DNS, hositng)
+github(CI) - codebuild(AWS - CD) - [ S3(AWS - front Storage), EC2(AWS - Server) ]- CloudFront(AWS - CDN) - route53(AWS - DNS, hositng)
 
 ## 1. environment:
 - node v18.17.0
