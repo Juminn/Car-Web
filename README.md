@@ -7,16 +7,16 @@ URL: https://car-engineer-su.com/
 
 
 ## 1. environment:
-- python 3.7
-- tensorflow-gpu 1.14.0
-- tensorflow-probability 0.7.0
-- dm-sonnet 1.34
-- CUDA 10.0
-- CuDNN 7.4
+- node v18.17.0
+- yarn 1.22.19
+- react 18.2.0
+- spring boot 3.0.9
 
 ## 2. how to Run
 download node.js, yarn
+
 $ yarn install
+
 $ yarn start
 
 ## 3. Reference
