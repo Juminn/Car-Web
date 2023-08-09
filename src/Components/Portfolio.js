@@ -3,12 +3,17 @@ import React, { Component } from 'react';
 class Portfolio extends Component {
   render() {
 
+    function act(projectImage) {
+      window.open(projectImage,'asdfo8or','scrollbars=yes,width=1100,height=1100,top=10,left=20');
+    }
+
+
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a href="#1" title="fuck" onClick={() => {act(projectImage)}}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">

@@ -9,7 +9,10 @@ class Header extends Component {
       var description= this.props.data.description;
       var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className} ></i></a></li>
+         if(network.name === "phone")
+            return <li key={network.name}><a href={network.url}><i className={network.className} ></i></a></li>
+
+        return <li key={network.name}><a href={network.url} target='_blank' rel="noreferrer"><i className={network.className} ></i></a></li>
       })
     }
 
@@ -22,12 +25,12 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li className="current"><a className="smoothscroll" href="#home">메인</a></li>
+            <li><a className="smoothscroll" href="#about">요약</a></li>
+	         <li><a className="smoothscroll" href="#resume">누구인가</a></li>
+            <li><a className="smoothscroll" href="#portfolio">작업들</a></li>
+            {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>
 
       </nav>

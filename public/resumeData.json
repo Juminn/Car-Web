@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "tim baker",
+    "name": "가나다라 입니다",
     "occupation": "가좌동",
     "description": "temple",
     "image": "profilepic.jpg",
@@ -18,13 +18,13 @@
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
+        "name": "phone",
+        "url": "tel:010-4187-6862",
         "className": "fa fa-phone"
       },
       {
-        "name": "twitter",
-        "url": "http://twitter.com",
+        "name": "kakao",
+        "url": "https://open.kakao.com/o/sWMb03yf",
         "className": "fa fa-comments"
       }
     ]
